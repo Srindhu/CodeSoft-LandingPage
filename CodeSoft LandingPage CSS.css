@@ -1,0 +1,192 @@
+/* ========== MEDIA QUERIES ========== */
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+    header h1,
+    header nav {
+      float: none;
+      text-align: center;
+    }
+  
+    header nav {
+      margin-top: 10px;
+    }
+  
+    .hero h2 {
+      font-size: 32px;
+    }
+  
+    .hero p {
+      font-size: 16px;
+    }
+  
+    .items {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .item {
+      position: relative;
+      width: 80%;
+    }
+  }
+  
+  /* Mobile Phones (480px and below) */
+  @media (max-width: 480px) {
+    .hero {
+      padding: 60px 20px;
+    }
+  
+    .hero h2 {
+      font-size: 24px;
+    }
+  
+    .hero p {
+      font-size: 14px;
+    }
+  
+    .btn {
+      padding: 8px 20px;
+      font-size: 14px;
+    }
+  
+    .item {
+      width: 100%;
+    }
+  
+    footer {
+      font-size: 14px;
+    }
+  }
+
+
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #5b50f1;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  header {
+    background: #f8f8f8;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    background-color: #f4f7f4;
+  }
+  
+  header h1 {
+    float: left;
+    font-size: 45px;
+    color: #f02bc5;
+    background-color: #eaeff0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #30dde9;
+    font-weight: bold;
+  }
+  
+  .hero {
+    
+    color: rgb(115, 241, 99);
+    text-align: left;
+    padding: 10px 20px;
+
+  }
+  
+  .hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background: #f0ec11;
+    color: rgb(45, 42, 230);
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #e74bc0;
+  }
+  
+  .about {
+    text-align: center;
+    padding: 10px 10px;
+    color: #8f8ef5;
+  }
+
+  .collection{
+    text-align: center;
+    padding: 60px 20px;
+    color: #db9758;
+
+  }
+
+  .lehnga{
+    color: #f02bc5;
+  }
+
+  .items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .item {
+    position: relative;
+    border-radius: 16px;
+    width: 200px;
+    
+    transition: transform 0.2s ease;
+  }
+  
+  .item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .item img {
+    max-width: 100%;
+    border-radius: 12px;
+  }
+  
+  footer {
+    background:#41e1ec;
+    color: #e477c8;
+  }
+  
+  
