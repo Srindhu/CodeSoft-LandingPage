@@ -1,4 +1,4 @@
-# 💃 Ria Boutique - Landing Page
+# 💃 Landing Page
 
 Welcome to the official landing page of **Ria Boutique** – where fashion meets elegance. This single-page website highlights our brand, offerings, and contact info in a sleek, responsive design.
 
@@ -17,7 +17,7 @@ This landing page is designed to:
 ## 🛠 Tech Stack
 
 - **HTML, CSS**
-- **Responsive Design** with Flexbox/Grid
+- **Responsive Design** 
 
 ## 📸 Screenshots
 
